@@ -26,17 +26,30 @@ h1 {
 
 .tabs {
     display: flex;
-    flex-wrap: wrap;
+    overflow-x: auto;
     gap: 10px;
     margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.tabs::-webkit-scrollbar {
+    height: 6px;
+}
+
+.tabs::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 10px;
 }
 
 .tabs button {
-    padding: 10px 15px;
+    flex-shrink: 0;
+    padding: 12px 18px;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
     background-color: #e5e7eb;
     cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
 }
 
 .tabs button:hover {
