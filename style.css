@@ -26,13 +26,13 @@ h1 {
 
 .tabs {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
 }
 
 .tabs button {
-    flex: 1;
-    padding: 12px;
+    padding: 10px 15px;
     border: none;
     border-radius: 10px;
     background-color: #e5e7eb;
