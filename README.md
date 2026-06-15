@@ -1,2 +1,2 @@
 # emptyclassroomcheak
-학교 빈 강의실 찾기
+동덕여자대학교 빈 강의실 찾기
